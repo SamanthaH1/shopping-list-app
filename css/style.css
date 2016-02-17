@@ -1,0 +1,71 @@
+body {
+	background: url("../images/backgroundimage.png");
+	background-repeat:no-repeat;
+}
+nav {
+	background-color: #8cbf4d;
+}
+.logo {
+	text-align:center;
+}
+.logo img {
+	margin-bottom: -25px;
+}
+.container {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:80px;
+	width:55%;
+	background-color: rgba(140, 191, 77, 0.7);
+	border: 5px solid #f15a24;
+}
+.container h1, .container h2 {
+	text-align:center;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+.container h2 {
+	font-weight:100;
+}
+.container hr {
+    display: block;
+    border: 1px solid white;
+    color: #fff;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.plus_icon {
+	margin-left:5px;
+}
+.item_container {
+    width: 22%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.listitems li {
+	list-style-type:none;
+}
+.listitems li p {
+	text-align:left;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	margin-left:20px;
+}
+.crossout p {
+	text-decoration: line-through;
+}
+.box, .box_chk {
+	float: left;
+    height: 16px;
+    width: 15px;
+}
+.box {
+	background: url('../images/checkboxsprite.png') 0 0;
+}
+.box_chk {
+	background: url('../images/checkboxsprite.png') -15px 0;
+}
+input {
+	float:left;
+}

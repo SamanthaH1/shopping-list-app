@@ -22,18 +22,18 @@ $('.plus_icon').click(function() {
 //sortable list items
 // sortable API http://api.jqueryui.com/sortable/#option-items
 
-//	$('#listitems').sortable( 
-//		{
-//			axis: "y"
-//		});
+	$('#listitems').sortable( 
+		{
+			axis: "y"
+		});
 
 
-//	show delete button on mouse hover ISNT WORKING
-//	$('#listitems').on('mouseenter', 'li', function(){
-//		$(this).children('.delete').toggleClass('show');
-//	});
-//	$('#listitems').on('mouseleave', 'li', function(){
-//		$(this).children('.delete').toggleClass('show');
-//	});
+	show delete button on mouse hover ISNT WORKING
+	$('#listitems').on('mouseenter', 'li', function(){
+		$(this).children('.delete').toggleClass('show');
+	});
+	$('#listitems').on('mouseleave', 'li', function(){
+		$(this).children('.delete').toggleClass('show');
+	});
 
-// });
+ });

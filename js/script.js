@@ -1,8 +1,8 @@
 //check items off list
 $(document).ready(function(){
-console.log($('#listitems'));
+//console.log($('#listitems'));
 	$('#listitems').on('click', 'li', function() {
-		console.log(this);
+//		console.log(this);
 		$(this).toggleClass('crossout'); 
 		$(this).children('.box').toggleClass('box_chk');
 });

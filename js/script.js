@@ -28,12 +28,14 @@ $('.plus_icon').click(function() {
 		});
 
 
-	show delete button on mouse hover ISNT WORKING
-	$('#listitems').on('mouseenter', 'li', function(){
-		$(this).children('.delete').toggleClass('show');
-	});
-	$('#listitems').on('mouseleave', 'li', function(){
-		$(this).children('.delete').toggleClass('show');
-	});
+//	show delete button on mouse hover ISNT WORKING
 
- });
+//	$('#listitems').on('mouseenter', 'li', function(){
+//		$(this).children('.delete').toggleClass('show');
+//	});
+
+//	$('#listitems').on('mouseleave', 'li', function(){
+//		$(this).children('.delete').toggleClass('show');
+//	});
+
+// });

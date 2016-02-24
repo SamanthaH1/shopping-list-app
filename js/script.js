@@ -1,4 +1,4 @@
-//javascript for shopping app.
+//javascript for shopping app
 //check items off list
 $(document).ready(function() {
     //console.log($('#listitems'));

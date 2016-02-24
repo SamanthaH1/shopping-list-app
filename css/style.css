@@ -74,9 +74,12 @@ input {
 	float:left;
 }
 .delete {
-	float: right;
-	margin-top: 3px;
-	display: none;
+    float: right;
+    display: none;
+    margin-top: -61px;
+    margin-right: 30px;
+    padding: 20px 60px 20px 60px;
+    cursor: pointer;
 }
 .show {
 	display: inline;
